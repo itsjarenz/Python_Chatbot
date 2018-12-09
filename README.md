@@ -75,6 +75,17 @@ because it allowed us to clone the repository to PyCharm where we can access eac
 files to see everyone’s contribution to the project and see if there are any similar solutions of
 code we need to solve our own code problems without having to do lots of research.
 
+Finally, If I were to come back to this project in the future to improve it, I would remove the database out of
+my program because having a database where the data within it are always changing such as a player’s
+weight or team the play for. It would be very difficult to keep track and maintain the database manually if not
+programmed to do it automatically. Therefore, it would mean using the NBA API would be more efficient
+because I rely on a website to gather data from instead of using my own entered data. This means that I
+can focus on extending and improving my code without worrying about false data in the database. The only
+downside to this exchange would be that my program is only limited to what the API functions can only. So,
+I would either have to find a better API to use or stick within the limits of the API. However, for now I am
+satisfied with having a database working in conjunction with an API because the data in the database is
+correct for this season of the NBA.
+
 References
 Text to speech code:
 https://stackoverflow.com/questions/22139394/python-text-to-speech-with-that-can-read-variables-contents
