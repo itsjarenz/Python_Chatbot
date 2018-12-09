@@ -1,0 +1,45 @@
+# A kv file is a mark up language very similar to the HTML , the strutcture is XML
+TextDesign: #
+#put colors and design here
+<TextDesign@BoxLayout>
+  sendText: search_box
+  seeText: see_text
+  sendBoxerText: search_box # for another convo points
+  orientation:"vertical" # sets the orientation of the BoxLayout
+  height: "600px"
+  width : "700px"
+  canvas:
+    Color:
+      rgb: (0.93, 0.93, 0.93)
+
+  BoxLayout:
+    height:"40dp"# the hight of the content
+    size_hint_y:None
+    TextInput:
+      id: search_box
+      size_hint_x:50#the width of the widget text
+      font_size:20
+      multiline:False
+      on_text_validate:root.sendData()
+
+      #the width of the widget text
+    #https://kivy.org/doc/stable/api-kivy.uix.button.html
+    CustomButton:
+      text:"Search"
+      size_hint_x:25
+      on_press:root.sendData()
+       # this is the class method we are calling
+  Label:
+    id: see_text
+    text:"Type hi to interacted with me:"
+    font_size:14
+
+
+
+    #the width of the widght button
+
+
+<CustomButton@Button>:
+  background_normal: ''
+  border:0,0,1,1
+  background_color: (1.84, 0, 0, 1)

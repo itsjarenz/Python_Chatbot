@@ -1,0 +1,4 @@
+/////////GUI Design Features////////////
+1) Will have a Button
+2) Will have a Logo
+3) Will have a CLI interface which communicates with text box (MAJOR!)
